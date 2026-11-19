@@ -1,0 +1,208 @@
+# Taxonomy extraction: FTT (Property Chamber) — Land Registration Division decisions
+
+Full transcription of the **two-level** Category → Sub Category taxonomy in the search form at [landregistrationdivision.decisions.tribunals.gov.uk/Public/search.aspx](https://landregistrationdivision.decisions.tribunals.gov.uk/Public/search.aspx) (site frozen: banner states no new decisions from 18 Aug 2025, pointing to Find Case Law – Land Registration). Context and analysis are in [courts-tribunals-schemes.md](../notes/courts-tribunals-schemes.md) §3; note this corrects that page's earlier "27 flat categories" description — the Category dropdown is followed by a dependent **Sub Category** dropdown (`ddlScat1`), populated by an ASP.NET postback when a category is selected.
+
+Extraction method: simulated the form postback (`__EVENTTARGET=ddlCat1`) for each of the 27 categories and transcribed the populated Sub Category options (captured 29 Oct 2026). Subcategory numbering (`n.m`) is as captured; gaps and ordering quirks in the source data are preserved.
+
+- 1. Adverse possession
+  - 1.1 Abandonment
+  - 1.2 Acknowledgment of title
+  - 1.3 Applications under Schedule 6 to the Land Registration Act 2002
+  - 1.4 Common land
+  - 1.5 Consent
+  - 1.6 Factual possession
+  - 1.7 Highways and public rights of way
+  - 1.8 Human rights law
+  - 1.9 Intention to possess
+  - 1.10 Interruption
+  - 1.11 Landlord and tenant/Licensor and licensee
+  - 1.12 Land subject to private or public rights of way
+  - 1.13 Land subject to trusts
+  - 1.14 Successive squatters
+  - 1.15 Other
+  - 1.16 Limitation periods
+  - 1.17 Notice
+- 2. Alteration and rectification of the register
+  - 2.1 Actual occupation
+  - 2.2 Alteration affecting the title of land in the possession of a registered proprietor
+  - 2.3 Correcting a mistake
+  - 2.4 Discretion of the Registrar and of the Tribunal
+  - 2.5 Forgery and fraud
+  - 2.6 Human Rights
+  - 2.7 Mistake
+  - 2.8 Overriding interests
+  - 2.9 Forfeiture
+  - 2.10 Other
+- 3. Beneficial interests, trusts and restrictions
+  - 3.1 Constructive trust - inferred common intention
+  - 3.2 Contributions
+  - 3.3 Detriment
+  - 3.4 Express agreement
+  - 3.5 Matrimonial and similar disputes
+  - 3.6 Proprietary estoppel
+  - 3.7 Restrictions where no beneficial interest
+  - 3.8 Resulting trust
+  - 3.9 Trustee in bankruptcy
+  - 3.10 Other
+  - 3.11 Severance
+  - 3.12 Constructive trust - other
+  - 3.13 Disapplication of restriction
+  - 3.14 Charging orders
+  - 3.15 Charities
+- 4. Boundary dispute
+  - 4.1 Accretion and diluvion
+  - 4.2 Accuracy of Land Registry plans
+  - 4.3 Ad medium filum
+  - 4.4 Boundary agreement
+  - 4.5 Determining exact line of boundary
+  - 4.6 General boundaries rule
+  - 4.7 Highways
+  - 4.8 Inferences to be drawn from surrounding circumstances
+  - 4.9 Interpretation of words of conveyance
+  - 4.10 Interpretation of plans in conveyance
+  - 4.11 Other
+- 5. Charges and charging orders
+  - 5.1 Beneficial interests
+  - 5.2 Charges imposed pursuant to statute
+  - 5.3 Charging orders
+  - 5.4 Effect on rectification
+  - 5.5 Fraud, forgery and undue influence/duress
+  - 5.6 Priority
+  - 5.7 Construction
+  - 5.8 Other
+  - 5.9 Bankruptcy and Insolvency
+  - 5.10 Subrogation
+  - 5.11 Mortgagee in possession
+- 6. Contracts and options
+  - 6.1 Contracts for sale
+  - 6.2 Options
+  - 6.3 Rights of pre emption
+  - 6.4 Statutory requirements
+  - 6.6 Other
+  - 6.5 Agreements for mortgage or charge *(ordering and numbering quirk in source: 6.6 listed before 6.5)*
+  - 6.7 Waiver
+  - 6.8 Overage agreements
+- 7. Costs
+  - 7.1 Assessment of costs
+  - 7.2 Conditional fees
+  - 7.3 Liability after adverse decision
+  - 7.4 Liability after withdrawal of application or objection
+  - 7.5 Offers to mediate, settle or negotiate
+  - 7.6 Parties without representation
+  - 7.7 Scope of jurisdiction
+  - 7.8 Other
+  - 7.9 Protective costs orders
+  - 7.10 Wasted costs
+- 8. Easements and profits a prendre
+  - 8.1 Abandonment
+  - 8.2 Change of route
+  - 8.3 Construction of express grant
+  - 8.4 Construction of implied grant
+  - 8.5 Easements of necessity
+  - 8.6 Easements of parking
+  - 8.7 Forcible user
+  - 8.8 Human Rights law
+  - 8.9 Interruption
+  - 8.10 Lost Modern Grant
+  - 8.11 Prescription, extent of right acquired
+  - 8.12 Prescription, requirements and acquisition
+  - 8.13 Proprietary Estoppel
+  - 8.14 Reservation, express
+  - 8.15 Reservation, implied
+  - 8.16 Other
+- 9. Evidence
+  - 9.1 Documentary and photographic evidence
+  - 9.2 Expert evidence
+  - 9.3 Extrinsic evidence
+  - 9.4 Non-attendance of witnesses
+  - 9.5 Requirement notices
+  - 9.6 Secondhand evidence
+  - 9.7 Site views
+  - 9.8 Witness statements
+  - 9.9 Other
+  - 9.10 Appeals
+- 10. Fraud, forgery, duress and undue influence
+  - 10.1 Effect on registered title
+  - 10.2 Evidence
+  - 10.3 Setting aside
+  - 10.4 Other
+- 11. Leases and licenses
+  - 11.1 Licences
+  - 11.2 Registration of leases
+  - 11.3 Validity of leases
+  - 11.4 Other
+  - 11.5 Legal or equitable
+  - 11.6 Surrender
+- 12. Network Access Agreements
+  - 12.1 Other
+- 13. Practice and Procedure
+  - 13.1 Abuse of process
+  - 13.2 Adding and substituting parties
+  - 13.3 Adjournment of Tribunal's proceedings
+  - 13.4 Appeals
+  - 13.5 Decisions and orders
+  - 13.6 Preliminary issues
+  - 13.7 Rectification applications
+  - 13.8 Sanctions for non-compliance with directions in orders
+  - 13.9 Scope of jurisdiction
+  - 13.10 Statements of case
+  - 13.11 Status and representation of parties
+  - 13.12 Summary disposal/strike out
+  - 13.13 Withdrawals
+  - 13.14 Power to order specified entry on register of affected title(s)
+  - 13.15 Other
+  - 13.16 Setting aside final orders
+  - 13.17 Power to order rejection of future applications
+- 14. Rectification or Setting Aside of Documents
+  - 14.1 Grounds for rectification
+  - 14.2 Grounds for setting aside
+  - 14.3 Scope of jurisdiction
+  - 14.4 Other
+- 15. Manorial Rights
+  - 15.1 No sub category
+- 16. Other
+  - 16.1 International disputes
+  - 16.2 No sub-category
+- 17. Home Rights
+  - 17.1 Requirements to establish interest
+- 18. Rentcharges
+  - 18.1 Nature and extent
+  - 18.2 Other
+- 19. Compulsory Purchase
+  - 19.1 General Vesting Declaration
+- 20. Estoppel
+  - 20.1 Highways and public rights of way
+  - 20.2 Options
+  - 20.3 Estoppel by record
+  - 20.4 Equitable estoppel
+  - 20.5 Issue estoppel
+- 21. Rivers, Waterways and Foreshore
+  - 21.1 Accretion and diluvion
+  - 21.2 Construction of relevant legislation
+  - 21.3 Ad medium filum
+  - 21.4 Moveable titles
+- 22. Deeds
+  - 22.1 Construction
+  - 22.2 Execution
+  - 22.3 Powers of Attorney
+  - 22.4 Subsequent conduct/extrinsic evidence
+  - 22.5 Requirement for
+- 23. Highways and public rights of way
+  - 23.1 Ad medium filum rule
+  - 23.2 Estoppel
+  - 23.3 Dedication as Highway
+- 24. Restrictive covenants
+  - 24.1 Disapplication
+  - 24.2 Registration of burden
+- 25. Practice Directions
+  - 25.1 30 July 2013 *(a dated practice direction, not a topic — quirk of the source data)*
+- 26. Miscellaneous cases
+  - 26.1 Miscellaneous
+- 27. Cautions against dealings
+  - 27.1 Effect of caution
+
+## Notes
+
+- 27 categories / 208 subcategory entries (including the "No sub category" placeholders and "Other" catch-alls).
+- Like the Lands Chamber scheme, it mixes true subject facets (e.g. 1.6 *Factual possession*, 5.6 *Priority*) with procedure/remedy facets (Costs, Evidence, Practice and Procedure, Appeals), and has hand-maintained quirks (out-of-order numbering in 6.x, "No sub category" buckets, the dated Practice Directions entry).
+- The subcategory vocabularies under categories 1, 2, 4, 5 and 8 are markedly deeper and more issue-explicit than anything in the Lands Chamber LAND REGISTRATION category (25.1–25.13), and read as doctrine-level drafting (Schedule 6 LRA 2002, factual possession + intention to possess, general boundaries rule).

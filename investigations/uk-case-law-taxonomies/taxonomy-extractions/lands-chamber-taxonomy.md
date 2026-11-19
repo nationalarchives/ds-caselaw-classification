@@ -1,0 +1,190 @@
+# Taxonomy extraction: Upper Tribunal (Lands Chamber) decisions site
+
+Full transcription of the two-level Category → Subcategory taxonomy embedded in the search form at [landschamber.decisions.tribunals.gov.uk/Aspx/Default.aspx](https://landschamber.decisions.tribunals.gov.uk/Aspx/Default.aspx) (populated by `PopulateSubcategory.js`). Context and analysis are in [courts-tribunals-schemes.md](../notes/courts-tribunals-schemes.md) §1; the summary counts are 17 categories / ~140 subcategories. Typos are transcribed as captured (*[sic]* marked). Site frozen as of 4 Aug 2025, pointing to Find Case Law.
+
+- **COMPENSATION** (1)
+  - 1.1 Compulsory Purchase
+  - 1.2 Land Compensation Act 1973 Part I
+  - 1.3 Mining subsidence
+  - 1.4 Electricity
+  - 1.5 Water
+  - 1.6 Purchase notice
+  - 1.7 Tree preservation order
+  - 1.8 Home loss payment
+  - 1.9 Severance
+  - 1.10 Injurious affection
+  - 1.11 Disturbance
+  - 1.12 Valuation method
+  - 1.13 Scheme
+  - 1.14 Hope value
+  - 1.15 Ransom value
+  - 1.16 Comparables
+  - 1.17 Planning permission
+  - 1.18 Blight
+  - 1.19 Extinghishment [*sic* — Extinguishment]
+  - 1.20 Dwelling house
+  - 1.21 Unfit house
+  - 1.22 Right of way
+  - 1.23 Agricultural land
+  - 1.24 Minerals
+  - 1.25 Petrol filling station
+  - 1.26 Shop
+  - 1.27 Road noise
+  - 1.28 Limitation
+  - 1.29 Interest
+  - 1.30 Procedure
+  - 1.31 Costs
+  - 1.32 Stop notice
+  - 1.33 Demolition Order
+  - 1.34 Preliminary issue
+  - 1.35 Prohibition Order
+- **RATING** (2)
+  - 2.1 Valuation
+  - 2.2 Exemption
+  - 2.3 Alteration of rating list
+  - 2.4 Comparables
+  - 2.5 Hereditament
+  - 2.6 Occupation
+  - 2.7 Shop
+  - 2.8 Public house
+  - 2.9 Club
+  - 2.10 Holiday cottage
+  - 2.11 Procedure
+  - 2.12 Costs
+  - 2.13 Proposal
+  - 2.14 College premises
+  - 2.15 Drainage rates
+  - 2.16 Rateable property
+  - 2.17 Plant and Machinery
+- **RESTRICTIVE COVENANTS** (3)
+  - 3.1 Discharge
+  - 3.2 Modification
+  - 3.3 Obsoleteness
+  - 3.4 Practical benefits of substantial value or advantage
+  - 3.5 Public interest
+  - 3.6 Consent
+  - 3.7 Injury to objector
+  - 3.8 Consideration
+  - 3.9 Compensation
+  - 3.10 House
+  - 3.11 Flat
+  - 3.12 Alterations to house
+  - 3.13 Agricultural building
+  - 3.14 Home for elderly
+  - 3.15 Procedure
+  - 3.16 Costs
+  - 3.17 Jurisdiction
+  - 3.18 Entiltlement to benefit [*sic* — Entitlement to benefit]
+  - 3.19 Preliminary issue
+- **LEASEHOLD ENFRANCHISEMENT** (4)
+  - 4.1 Collective enfranchisement
+  - 4.2 House
+  - 4.3 Flat
+  - 4.4 Price
+  - 4.5 Premium
+  - 4.6 Comparables
+  - 4.7 Standing house value
+  - 4.8 Site value
+  - 4.9 Intermediate leasehold interest
+  - 4.10 Development potential
+  - 4.11 Ground rent
+  - 4.12 Yield rates
+  - 4.13 Capitalisation rate
+  - 4.14 Deferment rate
+  - 4.15 Marriage value
+  - 4.16 Hope value
+  - 4.17 Terms of transfer
+  - 4.18 Restrictive covenant
+  - 4.19 Garage
+  - 4.20 Procedure
+  - 4.21 Costs
+  - 4.22 Right to manage
+  - 4.23 Special purchaser
+  - 4.24 Estate charges
+- **LANDLORD AND TENANT** (5)
+  - 5.1 Service Charges
+  - 5.2 Insurance
+  - 5.3 Appointment of manager
+  - 5.4 Right to manage
+  - 5.5 Administrative Charge
+  - 5.6 Purchase notice
+  - 5.7 Breach of covenant
+  - 5.8 Acquisition by tenant of new lease
+  - 5.9 Variation of lease
+  - 5.10 FTT procedure
+  - 5.11 Rent Determination
+  - 5.12 Agricultural Holdings Act 1986
+- **BLIGHT NOTICE** (6)
+  - 6.1 Blight notice
+  - 6.2 Preliminary Issue
+- **TAX** (7)
+  - 7.1 Inheritance tax
+  - 7.2 Capital gains tax
+  - 7.3 Comparables
+  - 7.4 House
+  - 7.5 Hotel
+  - 7.6 Procedure
+  - 7.7 Costs
+- **EASEMENT** (8)
+  - 8.1 Countryside and Right of Way Act 2000
+- **ARBITRATION** (9)
+  - 9.1 Access rights
+- **COSTS** (10)
+  - 10.1 Preliminary issues
+  - 10.2 Preliminary issues *(duplicate of 10.1 in the source data)*
+  - 10.3 Right to Manage
+- **HOUSING** (16)
+  - 16.1 Emergency remedial action
+  - 16.2 Prohibition Notice
+  - 16.3 Enforcement action
+  - 16.4 House in multiple occupation
+  - 16.5 Selective Licencing
+  - *(16.6 missing in the source data)*
+  - 16.7 Civil Penalty
+  - 16.8 Rent Repayment Order
+  - 16.9 Banning Order
+  - 16.10 Other
+  - 16.11 Right-to-Buy
+- **PARK HOMES** (19)
+  - 19.1 Administration Charges
+  - 19.2 Pitch Fee Review
+  - 19.3 Sale, assignment and succession
+  - 19.4 Site Rules
+  - 19.5 Procedure
+  - 19.6 Water Charges
+  - 19.7 Site Licencing
+  - 19.8 Jurisdiction
+  - 19.9 Electricity Charges
+- **LAND REGISTRATION** (25)
+  - 25.1 Unilateral notice
+  - 25.2 Adverse possession
+  - 25.3 Alteration and rectification
+  - 25.4 Beneficial interests, trusts and restrictions
+  - 25.5 Boundary disputes
+  - 25.6 Charges and charging orders
+  - 25.7 Contracts and options
+  - 25.8 Costs
+  - 25.9 Easement and profits
+  - 25.10 Fraud, forgery, duress and undue influence
+  - 25.11 Practice and Procedure
+  - 25.12 Rectification or setting aside of documents
+  - 25.13 Title to land
+- **ELECTRONIC COMMUNICATIONS CODE** (26)
+  - 26.1 Jurisdiction
+  - 26.2 Interim Code Rights
+  - 26.3 Code rights
+  - 26.4 Temporary Code rights
+  - 26.5 Consideration
+  - 26.6 Compensation
+  - 26.7 Other
+  - 26.8 New agreement or modification
+- **INTERIM RIGHTS** (27)
+  - *(no subcategories)*
+- **ELECTRICITY CHARGES** (28)
+  - *(no subcategories)*
+- **BUILDING SAFETY** (29)
+  - 29.1 REMEDIATION CONTRIBUTION ORDER
+  - 29.2 Accountable Person
+  - 29.3 LEASEHOLDER PROTECTION
+
+Extraction method: read from the live form payload and its `PopulateSubcategory.js` data (captured 25 Oct 2026, re-transcribed here verbatim from the captured table).

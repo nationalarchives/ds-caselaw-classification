@@ -1,0 +1,268 @@
+# Taxonomy extraction: EAT decisions on GOV.UK (two-level scheme)
+
+The GOV.UK finder [Employment appeal tribunal decisions](https://www.gov.uk/employment-appeal-tribunal-decisions) publishes EAT decisions from December 2017 onwards (2,648 decisions at capture); pre-2017 material remains on the frozen legacy site (see [eat-taxonomy](eat-taxonomy.md)). Unlike the legacy site's flat 43-topic dropdown, the GOV.UK finder exposes a **two-level scheme** as two filter facets:
+
+- **Category** — 45 top-level topics.
+- **Sub-category** — 192 unique values, each labelled `Category - Sub-topic` (e.g. *Unfair Dismissal - Polkey deduction*), so the hierarchy is encoded in the label prefix rather than in a structured parent field.
+
+Extraction method: parsed from the [GOV.UK content API](https://www.gov.uk/api/content/employment-appeal-tribunal-decisions) finder schema (`details.facets[*].allowed_values`), captured 13 Nov 2026. The API returned 197 sub-category rows of which 5 were duplicate entries under Practice and Procedure; deduplicated to 192. 19 of the 45 categories have sub-categories; 26 do not.
+
+## Full scheme
+
+- Age Discrimination
+- Agency Workers
+- Blacklisting Regulations
+- Central Arbitration Committee (CAC)
+- Certification Officer
+- Contract of Employment (16 sub-categories)
+  - Apprenticeship
+  - Breach of Contract
+  - Damages for breach of contract
+  - Definition of employee
+  - Disciplinary and grievance procedure
+  - Frustration
+  - Implied Term/Variation/Construction of Term
+  - Incorporation into Contract
+  - Itemised pay statement
+  - Mitigation
+  - Mutual trust and confidence
+  - Notice and pay in lieu
+  - Sick pay and holiday pay
+  - Whether established
+  - Written particulars
+  - Wrongful dismissal
+- Disability Discrimination (1 sub-category)
+  - Reasonable Adjustment
+- Employment Agencies Act 1973
+- Employee, Worker or Self Employed
+- Equal Pay Act (12 sub-categories)
+  - Article 141/European law
+  - Case management
+  - Damages/Compensation
+  - Equal value
+  - European law
+  - Indirect discrimination
+  - Like work
+  - Material factor defence and justification
+  - Other establishments
+  - Out of time
+  - Part-time Pensions
+  - Work rated equivalent
+- European Material
+- Fixed Term Regulations
+- Flexible Working
+- Gender Reassignment/Transgender Discrimination
+- Harassment (3 sub-categories)
+  - Compensation
+  - Conduct
+  - Purpose
+- Health & Safety (1 sub-category)
+  - Detriment
+- Human Rights
+- Jurisdictional Points (11 sub-categories)
+  - 2002 Act and pre-action requirements
+  - Agency relationships
+  - Claim in time and effective date of termination
+  - Continuity of employment
+  - Excluded employments
+  - Extension of time: just and equitable
+  - Extension of time: reasonably practicable
+  - Fraud and illegality
+  - State immunity
+  - Worker employee or neither
+  - Working outside the jurisdiction
+- Marriage and Civil Partnership
+- Maternity Rights and Parental Leave (5 sub-categories)
+  - Detriment
+  - Pregnancy
+  - Return to work
+  - Sex discrimination
+  - Unfair dismissal
+- National Minimum Wage
+- National Security
+- Part Time Workers
+- Practice and Procedure (38 sub-categories)
+  - 2002 Act and pre-action requirements
+  - Absence of Party
+  - Admissibility of evidence
+  - Amendment
+  - Appearance/Response
+  - Appellate jurisdiction/Reasons/Burns-Barke
+  - Application/Claim
+  - Bias misconduct and procedural irregularity
+  - Case Management
+  - Chairman alone
+  - Chairmans notes of evidence
+  - Compromise
+  - Contribution
+  - Costs
+  - Delay in ET judgment
+  - Disclosure
+  - Disposal of appeal including remission
+  - Estoppel or Abuse of Process
+  - Imposition of Deposit
+  - Insolvency
+  - New evidence on appeal
+  - No case to answer
+  - Parties
+  - Permission to appeal further
+  - Perversity
+  - Postponement or stay
+  - Preliminary issues
+  - Questionnaires
+  - Restricted Reporting Order
+  - Restriction of proceedings order
+  - Review
+  - Right to be heard
+  - Service
+  - Split hearings
+  - Striking-out/dismissal
+  - Time for appealing
+  - Transfer/Hearing together
+  - Withdrawal
+- Procedural Issues
+- Public Interest Disclosure
+- Race Discrimination (21 sub-categories)
+  - Aiding and abetting
+  - Burden of proof
+  - Comparison
+  - Continuing act
+  - Contract workers
+  - Detriment
+  - Direct
+  - Discrimination by other bodies
+  - Illegality/Fraud
+  - Indirect
+  - Inferring discrimination
+  - Injury to feelings
+  - Jurisdiction
+  - Other losses
+  - Out of Time
+  - Post Employment
+  - Prospective employees
+  - Protected by s41
+  - Recommendations
+  - Vicarious liability
+  - Victimisation
+- Redundancy (8 sub-categories)
+  - Collective consultation and information
+  - Contractual scheme
+  - Definition
+  - Exclusion
+  - Fairness
+  - Protective award
+  - Suitable alternative employment
+  - Trial period
+- Religion or Belief Discrimination
+- Reserved Forces Act
+- Right To Be Accompanied
+- Rights on Insolvency
+- Sex Discrimination (25 sub-categories)
+  - Aiding and abetting
+  - Burden of proof
+  - Comparison
+  - Continuing act
+  - Contract workers
+  - Detriment
+  - Direct
+  - Discrimination by other bodies
+  - Equal treatment directive
+  - Illegality/Fraud
+  - Indirect
+  - Inferring discrimination
+  - Injury to feelings
+  - Jurisdiction
+  - Justification
+  - Marital status
+  - Other losses
+  - Post Employment
+  - Pregnancy and discrimination
+  - S4(2) Defence
+  - Sexual harassment
+  - Sexual orientation
+  - Transsexualism
+  - Vicarious liability
+  - Victimisation
+- Sexual Orientation Discrimination/Transexualism
+- Statutory Discipline and Grievance Procedures (3 sub-categories)
+  - Impact on compensation
+  - Whether applicable
+  - Whether infringed
+- Time Limits
+- Time Off (3 sub-categories)
+  - Parental leave
+  - Public duties
+  - Trade union activities
+- Trade Union Membership
+- Trade Union Rights (3 sub-categories)
+  - Action short of dismissal
+  - Dismissal
+  - Interim relief
+- Transfer of Undertakings (13 sub-categories)
+  - Acquired rights directive
+  - Consultation and other information
+  - Continuity of employment
+  - Dismissal/automatically unfair dismissal
+  - Economic technical or organisational reason
+  - Entity
+  - Insolvency
+  - Insolvent Employer
+  - Objection to transfer
+  - Pensions and other terms
+  - Service Provision Change
+  - Transfer
+  - Varying terms of employment
+- Unfair Dismissal (16 sub-categories)
+  - Automatically unfair reasons
+  - Compensation
+  - Constructive dismissal
+  - Contributory fault
+  - Dismissal/ambiguous resignation
+  - Exclusions including worker/jurisdiction
+  - Illegality/Fraud
+  - Mitigation of loss
+  - National Security
+  - Polkey deduction
+  - Procedural fairness/automatically unfair dismissal
+  - Reason for dismissal including substantial other reason
+  - Reasonableness of dismissal
+  - Reinstatement/re-engagement
+  - Retirement
+  - S.98A(2) ERA
+- Unlawful Deduction from Wages (3 sub-categories)
+  - Exclusions
+  - Out of Time
+  - Ready, Willing and Able to Work
+- Victimisation Discrimination (7 sub-categories)
+  - Detriment
+  - Dismissal
+  - Health and safety
+  - Interim relief
+  - Other forms of victimisation
+  - Protected disclosure
+  - Whistleblowing
+- Whistleblowing, Protected Disclosures
+- Working Time Regulations (3 sub-categories)
+  - Holiday pay
+  - S.43A detriment
+  - Worker
+
+Also in the finder but not part of the subject scheme: a **Landmark** boolean facet (*Landmark* / *Not landmark*) and a Decision date facet.
+
+## Comparison: legacy flat list vs GOV.UK two-level scheme
+
+Legacy list = the 42 unique topics (43 rows incl. one duplicate) in [eat-taxonomy](eat-taxonomy.md), captured from the frozen legacy search site.
+
+- **The GOV.UK scheme is the same vocabulary, upgraded in structure.** All 41 non-obsolete legacy topics reappear unchanged as GOV.UK categories, and the sub-category tier appears to be newly exposed rather than newly invented — its vocabulary (Polkey deduction, Burns-Barke, s.98A(2) ERA, S.4(2) Defence) reads as the EAT's long-standing internal case-note headings, now published as a filter.
+- **Topic changes at category level are minimal (42 → 45).**
+  - Removed: *Jurisdiction* (legacy-marked obsolete).
+  - Added: *Employee, Worker or Self Employed*; *Gender Reassignment/Transgender Discrimination*; *Marriage and Civil Partnership*; *Whistleblowing, Protected Disclosures*.
+  - The additions track post-2010 legal change: Equality Act 2010 protected characteristics (gender reassignment; marriage and civil partnership) and employment-status litigation (worker status), plus a lay-friendly alias for whistleblowing.
+- **The obsolete-topic markers were dropped, not the topics.** The legacy UI marked 7 topics "(obsolete topic)": *Jurisdiction* (now removed), and *European Material*, *Procedural Issues*, *Public Interest Disclosure*, *Reserved Forces Act*, *Time Limits* (all retained on GOV.UK without any marker), plus the duplicate *Employment Agencies Act 1973* row (now a single entry). So GOV.UK silently republished vocabulary the legacy site had flagged for retirement — the curation signal was lost in migration.
+- **Redundancy between old and new:** *Public Interest Disclosure* and *Whistleblowing, Protected Disclosures* coexist as separate categories; *Sexual Orientation Discrimination/Transexualism* coexists with the new *Gender Reassignment/Transgender Discrimination* and with *Sex Discrimination - Sexual orientation* / *- Transsexualism* sub-categories — three overlapping routes to the same material. This looks like accumulated vocabulary rather than deliberate design.
+- **Coverage is uneven.** 19 of 45 categories have sub-categories; the biggest branches are Practice and Procedure (38), Sex Discrimination (25), Race Discrimination (21), Contract of Employment (16) and Unfair Dismissal (16). Whole areas including the new categories (e.g. *Employee, Worker or Self Employed*, *National Minimum Wage*) have no second level, so depth reflects where the EAT historically annotated cases, not topic importance.
+- **Vocabulary currency is poor at leaf level.** Sub-categories still reference repealed statutes and superseded doctrine: Equal Pay Act (repealed 2010), "Article 141/European law", "2002 Act and pre-action requirements", statutory discipline and grievance procedures (disapplied 2009), "Chairman alone" (now Employment Judge), "Questionnaires" (abolished 2014). Consistent with the legacy list, this is a historical vocabulary carried forward without curation.
+- **Same facet-mixing problem as the legacy list:** subject (*Race Discrimination*), procedure (*Practice and Procedure - Costs*) and remedy (*Unfair Dismissal - Reinstatement/re-engagement*) remain mixed in one hierarchy.
+- **Structural precedent:** alongside the Upper Tribunal AAT finder ([upper-tribunal-aat-taxonomy](upper-tribunal-aat-taxonomy.md)) and the Land Registration Division site, this is now the third tribunal scheme where a two-level "Category / Sub-category" pattern is used — evidence that HMCTS publishing treats two levels as the standard depth for decision classification. The prefix-encoding of the hierarchy in the label (`Category - Sub-topic`) is itself a data-quality finding: the hierarchy exists only as a string convention, not as linked metadata.
+
+Sources: [GOV.UK finder page](https://www.gov.uk/employment-appeal-tribunal-decisions); [content API](https://www.gov.uk/api/content/employment-appeal-tribunal-decisions) (captured 13 Nov 2026).

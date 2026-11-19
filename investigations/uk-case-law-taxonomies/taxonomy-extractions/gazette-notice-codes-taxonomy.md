@@ -1,0 +1,303 @@
+# Taxonomy extraction: The Gazette notice codes
+
+Full transcription of the notice-code scheme at [thegazette.co.uk/noticecodes](https://www.thegazette.co.uk/noticecodes) (The Gazette, published by The National Archives). Not a case-law subject taxonomy as such — it is the official classification of *notice types* in The Gazette's public record, used both to filter research searches and by organisations when submitting notices for publication.
+
+Structure: 7 top-level groups → 22 numbered categories → 258 individual notice codes (4-digit `NNxx`), plus a separate Company Law Supplement section with 40 letter-numbered codes (`A1`–`L2`) listed flat under its group.
+
+Extraction method: parsed the server-rendered HTML in document order — `h2` groups, `h3` categories, and one code per `<p>` entry (captured 4 Nov 2026). Source annotations such as "(notice code no longer in service)" are preserved verbatim.
+
+- State notices
+  - 11 State
+    - 1101 Proclamations
+    - 1102 Royal family (notice code no longer in service)
+    - 1103 Appointments to the royal household (notice code no longer in service)
+    - 1104 Loyal addresses
+    - 1105 Honours and awards
+    - 1106 Privy Council Office
+    - 1107 Change of name/and or arms
+    - 1108 Crown Office
+    - 1109 Duchy of Cornwall or Duchy of Lancaster
+    - 1110 Appointment of sheriffs
+    - 1111 Deputy lieutenant commissions
+    - 1112 Appointment of royal commissions (notice code no longer in service)
+    - 1113 Lord chancellor's office (notice code no longer in service)
+    - 1114 (Heading as appropriate)
+    - 1115 Lord Lieutenants
+    - 1116 Home Office
+    - 1117 The Scottish Executive
+    - 1118 Chancellor of the exchequer
+    - 1119 Warrants under the royal sign manual
+    - 1120 Order of St John
+    - 1121 Immigration and asylum
+    - 1122 Knights Bachelor
+    - 1123 Order of the Bath
+    - 1124 Order of Saint Michael and Saint George
+    - 1125 The Royal Victorian Order
+    - 1126 Bar to the Royal Victorian Medal
+    - 1127 Royal Victorian Medal
+    - 1128 Order of the Companions of Honour
+    - 1129 Order of the British Empire
+    - 1130 British Empire Medal
+    - 1131 Royal Red Cross
+    - 1132 King's Police Medal
+    - 1133 King's Fire Service Medal
+    - 1134 King's Ambulance Service Medal
+    - 1135 King's Volunteer Reserves Medal
+    - 1136 Overseas Territories Police and Fire Service Medal
+  - 12 Parliament
+    - 1201 UK Parliament
+    - 1203 House of Lords
+    - 1204 Speaker’s notice
+    - 1205 Lord Chancellor’s Office (notice code no longer in service)
+    - 1207 House of Commons
+    - 1208 The Scottish Parliament
+    - 1209 Northern Ireland Assembly
+    - 1210 National Assembly for Wales
+    - 1211 Statutory rule (NI)
+- Other public sector notices
+  - 13 Ecclesiastical
+    - 1301 Church commissioners (notice code no longer in service)
+    - 1302 Marriage acts
+    - 1303 Church of Scotland (notice code no longer in service)
+    - 1304 Church use and fabric
+  - 14 Public finance
+    - 1401 Treasury
+    - 1402 National Savings
+    - 1403 Bank of England
+    - 1404 Banks of issue in Scotland
+    - 1405 Customs & Excise
+    - 1406 Bankers (NI) acts
+    - 1407 Insolvency Service (notice code no longer in service)
+  - 33 Individual awards
+    - 3301 Points of Light
+  - 29 Personal legal
+    - 2904 Unclaimed estates
+- Public notices
+  - 15 Transport
+    - 1501 Road traffic acts
+    - 1502 New roads and street works
+    - 1503 Highways
+    - 1504 London Hackney Carriages
+    - 1505 Railways
+    - 1506 Transport acts
+    - 1507 Ports
+    - 1508 Civil aviation
+    - 1509 Cycle tracks
+    - 1510 Roads (NI) order
+  - 16 Planning
+    - 1601 Town and country planning
+    - 1602 New towns (notice code no longer in service)
+    - 1603 Acquisition and disposal of land
+    - 1604 Local government and housing (notice code no longer in service)
+    - 1605 Commons registration (notice code no longer in service)
+    - 1606 Open spaces (notice code no longer in service)
+    - 1607 Inner urban areas (notice code no longer in service)
+    - 1608 Pipe-lines
+    - 1609 Zoo licensing
+  - 17 Health
+    - 1701 Medicines
+    - 1702 Other notices
+    - 1703 Coronavirus (Powers relating to potentially infectious persons)
+    - 1704 Coronavirus (Powers to issue directions relating to events, gatherings and premises)
+    - 1705 Coronavirus (Transportation, storage and disposal of dead bodies etc)
+    - 1706 Coronavirus (Emergency volunteer compensation)
+    - 1707 Coronavirus (Disapplication/modification of DBS provisions)
+    - 1708 Coronavirus (Review of medical certificates of cause of death and cremations: Scotland)
+    - 1709 Coronavirus (Information relating to food supply chains: financial penalties)
+    - 1710 Coronavirus (Temporary closure of educational institutions and childcare premises)
+    - 1711 Coronavirus (Temporary continuity directions etc: education, training and childcare)
+    - 1712 Coronavirus (Postponement of elections (Scotland))
+    - 1713 Coronavirus (Failure to publish reports on the non-devolved provisions of Coronavirus Act 2020)
+    - 1714 Coronavirus (Temporary registration of social workers (Scotland))
+    - 1715 Coronavirus (Freedom of Information extensions (Scotland))
+    - 1716 Coronavirus (Reporting of statutory duties (Scotland))
+    - 1717 Coronavirus (Serious and imminent threat declaration)
+  - 18 Environment
+    - 1801 Clean air
+    - 1802 Control of pollution
+    - 1803 Environmental protection
+    - 1804 Coast protection
+    - 1805 National parks and access to the countryside
+    - 1806 Wildlife and countryside
+    - 1807 Harbours
+    - 1808 Flood prevention
+  - 19 Water
+    - 1901 Water resources
+    - 1902 Water industry
+    - 1903 Land drainage
+    - 1904 Natural mineral waters
+  - 20 Agriculture and fisheries
+    - 2001 Fisheries
+    - 2002 Veterinary medicines
+    - 2003 Corn returns (notice code no longer in service)
+    - 2004 Animal health
+    - 2005 Forestry and plant health
+    - 2006 Dairy produce quotas regulations (notice code no longer in service)
+  - 21 Energy
+    - 2101 Gas
+    - 2102 Coal
+    - 2103 Electricity
+  - 22 Post and telecommunications
+    - 2201 Post Office
+    - 2202 Telecommunications
+    - 2203 Electronic communications
+- Other notices
+  - 23 Other notices
+    - 2301 Other notices
+  - 31 Competition
+    - 3101 Competition
+    - 3102 Competition
+  - 26 Companies regulation
+    - 2600 Companies restored to the register
+    - 2601 Pre-emption offers to shareholders
+    - 2602 Redemption or purchase of own shares out of capital
+    - 2603 Notice of disclaimer
+    - 2604 Notices under the Trustee Act 1925
+    - 2605 Insurance companies
+    - 2606 Employment agencies (notice code no longer in service)
+    - 2607 Insolvency practitioner applications
+    - 2608 Company director disqualification order
+    - 2609 Companies removed from the register
+    - 2610 Reduction of capital
+    - 2611 Company documents
+    - 2612 European Economic Interest Grouping
+    - 2613 Meeting of creditors
+    - 2614 Petitions to transfer business
+    - 2615 Takeover offers
+  - 27 Partnerships
+    - 2701 Change in the members of a partnership
+    - 2702 Dissolution of partnership
+    - 2703 Statement by general partner
+  - 28 Societies regulation
+    - 2801 Friendly societies
+    - 2802 Industrial and provident Societies
+    - 2803 Building societies
+    - 2804 Co-operative and community benefit societies
+- Insolvency notices
+  - 24 Corporate insolvency
+    - 2401 Moratorium – coming into force
+    - 2402 Moratorium – coming to an end
+    - 2403 Re-use of a prohibited name
+    - 2404 Cross-border insolvencies
+    - 2405 Overseas territories and dependencies
+    - 2406 Notice of intended dividend
+    - 2407 Notice of dividend
+    - 2408 Other corporate insolvency notices
+    - 2409 Qualifying decision procedure
+    - 2410 Appointment of administrators
+    - 2411 Administration orders
+    - 2412 Meetings of creditors
+    - 2413 Notices to members
+    - 2414 Deemed consent (administration)
+    - 2421 Appointment of administrative receivers
+    - 2422 Meetings of creditors
+    - 2423 Appointment of receivers
+    - 2424 Deemed consent (administrative receivership)
+    - 2431 Resolution for winding up
+    - 2432 Appointment of liquidators
+    - 2433 Notices to creditors
+    - 2434 Annual liquidation meetings
+    - 2435 Final meetings (underlying legislation repealed for England and Wales in 2017, and Scotland in 2019)
+    - 2441 Resolution for winding up
+    - 2442 Meetings of creditors
+    - 2443 Appointment of liquidators
+    - 2444 Annual liquidation meetings
+    - 2445 Final meetings (underlying legislation repealed for England and Wales in 2017, and Scotland in 2019)
+    - 2446 Notice to creditors
+    - 2447 Deemed consent (CVL)
+    - 2450 Petitions to wind up (Companies)
+    - 2461 Dismissal of winding up petition
+    - 2451 Petitions to wind up (partnerships)
+    - 2452 Winding up order (companies)
+    - 2453 Winding up order (partnerships)
+    - 2454 Appointment of liquidators
+    - 2455 Meetings of creditors
+    - 2456 Notice of intended dividend
+    - 2457 Notice of dividend
+    - 2458 Final meetings (underlying legislation repealed for England and Wales in 2017, and Scotland in 2019)
+    - 2459 Release of liquidator
+    - 2460 Notice to creditors
+    - 2462 Service of petition
+    - 2463 Annual meeting
+    - 2464 Public examinations
+    - 2465 Deemed consent (winding up by the court)
+  - 25 Personal insolvency
+    - 2501 Statutory demands
+    - 2502 Substituted service of petition
+    - 2503 Bankruptcy orders
+    - 2504 Bankruptcy orders (partnerships)
+    - 2505 Administration orders
+    - 2506 Amendment of title of proceedings
+    - 2526 Meeting of creditors
+    - 2507 Appointment of trustees
+    - 2508 Notices to creditors
+    - 2509 Notice of intended dividend
+    - 2510 Notice of dividend
+    - 2511 Final meetings (underlying legislation repealed for England and Wales in 2017, and Scotland in 2019)
+    - 2512 Annulment of proceedings
+    - 2513 Applications for discharge
+    - 2514 Release of trustees
+    - 2515 Discharge orders
+    - 2516 Orders annulling, revoking, or rescinding orders
+    - 2520 Deemed consent (bankruptcy)
+    - 2517 Sequestration (Scottish bankruptcy)
+    - 2525 Section 5(2B)(c) sequestrations (underlying legislation repealed in 2014) (notice code no longer in service)
+    - 2524 Recall of sequestration
+    - 2518 Trust deeds
+    - 2519 Satisfaction of trust deed (notice code no longer in service)
+    - 2527 Public examinations
+    - 2528 Qualifying decision procedure
+- Personal legal
+  - 29 Personal legal
+    - 2901 Changes of name
+    - 2902 Next of kin
+    - 2903 Deceased estates
+- Company Law notice codes
+  - A1 Certificates of incorporation - new companies
+  - A2 Certificates of Incorporation - change of name
+  - A3 Certificates of Incorporation - re-registration
+  - B1 The company's memorandum and articles
+  - B2 Any amendment to company's articles (including every resolution or agreement required to be embodied In or annexed to copies of the company's articles issued by the company)
+  - B3 After any amendment of the company's articles, the text of the articles as amended
+  - B4 Any notice of a change of company name
+  - C1 The statement of proposed officers required on formation of the company
+  - C2 Notification of any change among the company's directors
+  - C3 Notification of any change in the particulars of directors required to be delivered to the Registrar
+  - D1 All documents required to be delivered to the Registrar under Section 441 (annual accounts and reports)
+  - D2 The company's annual return
+  - D3 All documents delivered to the Registrar under sections 394A(2)(E), 448A(2)(E) And 479A(2)(E) (qualifying subsidiary companies: conditions for exemption from the preparation, filing and audit of accounts)
+  - D4 The Company’s Confirmation Statement
+  - E1 Notification of any change of the company's registered office
+  - F1 Copy of any winding up order in respect of the company
+  - F2 Notice of the appointment of liquidators
+  - F3 Order for the dissolution of a company on a winding up
+  - F4 Return by liquidator of the final meeting of a company on a winding up
+  - G1 Any statement of capital and initial shareholdings
+  - G2 Any return of allotment and the statement of capital accompanying It
+  - G3 Copy of any resolution under section 570 or 571 (dis-application of pre-emption rights)
+  - G4 Copy of any report under section 593 or 599 as to the value of a non-cash asset
+  - G5 Statement of capital accompanying notice given under section 625 (notice by company of redenomination of shares)
+  - G6 Statement of capital accompanying notice given under section 627 (notice by company of reduction of capital in connection with redenomination of shares)
+  - G7 Notice delivered under section 636 (notice of new name of class of shares) or 637 (notice of variation of rights attached to shares)
+  - G8 Statement of capital accompanying order delivered under section 649 (order of court confirming reduction of capital)
+  - G9 Notification (under section 689) of the redemption of shares and the statement of capital accompanying it
+  - G10 Statement of capital accompanying return delivered under section 708 (notice of cancellation of shares on purchase of own shares) or 730 (notice of cancellation of shares held as treasury shares)
+  - G11 Any statement of compliance delivered under section 762 (statement that company meets conditions for issue of trading certificate)
+  - H1 Copy of any draft of the terms of a scheme required to be delivered to the Registrar under section 906 or 921
+  - H2 Copy of any order under section 899 or 900 in respect of a compromise or arrangement to which part 27 (mergers and divisions of public companies) applies
+  - J1 The Last Statement Of Capital Relating To The Company Received By The Registrar Under Any Provision Of The Companies Acts
+  - K1 Any return delivered under regulation 4 (duty to register particulars), regulation 12 (duty to register alterations) and regulation 14 (statement as to certified copy of company's constitution)
+  - K2 Any document delivered under regulation 8, 12 or 14
+  - K3 Any documents delivered under part 4 (delivery of accounts and reports by companies that are not relevant credit or financial institutions) or any documents delivered under part 5 (delivery of accounts and reports by relevant credit or financial institutions)
+  - K4 Any return delivered under regulation 56 (particulars to be delivered to the registrar on a winding up)
+  - K5 Any notice under regulation 75 (duty to give notice of closure of UK establishment)
+  - L1 Notice is hereby given, pursuant to section 1031 of the Companies Act 2006, that the companies listed hereunder have been restored by court order to the register of companies
+  - L2 Notice is hereby given, pursuant to section 1027 of the Companies Act 2006, that the companies listed hereunder have been administratively restored to the register of companies
+
+## Notes
+
+- Counts: 7 groups; 22 categories; 258 numbered codes + 40 Company Law codes = 298 entries total. Insolvency notices are the largest single group (71 codes across *Corporate insolvency* and *Personal insolvency*).
+- Category numbers are not in order within several groups — e.g. *Other public sector notices* runs 13, 14, **33, 29**; *Other notices* runs 23, **31**, 26, 27, 28 — evidently append-only over time (same hand-maintained pattern as the UKSC and AAC schemes).
+- "29 Personal legal" appears **twice**: once as a category under *Other public sector notices* holding only `2904 Unclaimed estates`, and again as a standalone group *Personal legal* holding `2901`–`2903`. Preserved as in the source.
+- The Company Law Supplement codes are listed "for the purposes of research information only" — organisations cannot place notices against them; they describe Companies House filings published weekly (every Tuesday) in the Supplement. Their labels quote the underlying statutory provisions verbatim (Companies Act 2006 sections, etc.) and preserve source casing quirks (e.g. `J1 The Last Statement Of Capital …`).
+- Several state codes are marked "(notice code no longer in service)" — historical vocabulary retained for filtering old notices (e.g. `1113 Lord chancellor's office` under *State* and the near-duplicate `1205 Lord Chancellor’s Office` under *Parliament*, differing only in casing).

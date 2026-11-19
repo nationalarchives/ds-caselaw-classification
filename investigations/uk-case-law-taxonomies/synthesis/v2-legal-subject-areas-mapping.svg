@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="750" viewBox="0 0 1120 750" font-family="Helvetica,Arial,sans-serif" font-size="11">
+<rect width="1120" height="750" fill="white"/>
+<path d="M 279,13 C 459.5,13 459.5,509 640,509 L 640,525 C 459.5,525 459.5,29 279,29 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,45 C 459.5,45 459.5,237 640,237 L 640,253 C 459.5,253 459.5,61 279,61 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,77 C 459.5,77 459.5,285 640,285 L 640,301 C 459.5,301 459.5,93 279,93 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,93 C 459.5,93 459.5,589 640,589 L 640,605 C 459.5,605 459.5,109 279,109 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,125 C 459.5,125 459.5,109 640,109 L 640,125 C 459.5,125 459.5,141 279,141 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,157 C 459.5,157 459.5,413 640,413 L 640,429 C 459.5,429 459.5,173 279,173 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,173 C 459.5,173 459.5,141 640,141 L 640,157 C 459.5,157 459.5,189 279,189 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,205 C 459.5,205 459.5,13 640,13 L 640,29 C 459.5,29 459.5,221 279,221 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,237 C 459.5,237 459.5,189 640,189 L 640,205 C 459.5,205 459.5,253 279,253 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,269 C 459.5,269 459.5,301 640,301 L 640,317 C 459.5,317 459.5,285 279,285 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,301 C 459.5,301 459.5,381 640,381 L 640,397 C 459.5,397 459.5,317 279,317 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,317 C 459.5,317 459.5,317 640,317 L 640,333 C 459.5,333 459.5,333 279,333 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,349 C 459.5,349 459.5,605 640,605 L 640,621 C 459.5,621 459.5,365 279,365 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,381 C 459.5,381 459.5,429 640,429 L 640,445 C 459.5,445 459.5,397 279,397 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,413 C 459.5,413 459.5,621 640,621 L 640,637 C 459.5,637 459.5,429 279,429 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,445 C 459.5,445 459.5,45 640,45 L 640,61 C 459.5,61 459.5,461 279,461 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,477 C 459.5,477 459.5,77 640,77 L 640,93 C 459.5,93 459.5,493 279,493 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,509 C 459.5,509 459.5,205 640,205 L 640,221 C 459.5,221 459.5,525 279,525 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,525 C 459.5,525 459.5,253 640,253 L 640,269 C 459.5,269 459.5,541 279,541 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,557 C 459.5,557 459.5,445 640,445 L 640,461 C 459.5,461 459.5,573 279,573 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,589 C 459.5,589 459.5,477 640,477 L 640,493 C 459.5,493 459.5,605 279,605 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,605 C 459.5,605 459.5,333 640,333 L 640,349 C 459.5,349 459.5,621 279,621 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,637 C 459.5,637 459.5,525 640,525 L 640,541 C 459.5,541 459.5,653 279,653 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,653 C 459.5,653 459.5,157 640,157 L 640,173 C 459.5,173 459.5,669 279,669 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,685 C 459.5,685 459.5,349 640,349 L 640,365 C 459.5,365 459.5,701 279,701 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<path d="M 279,701 C 459.5,701 459.5,557 640,557 L 640,573 C 459.5,573 459.5,717 279,717 Z" fill="#ff7f0e" fill-opacity="0.28"/>
+<rect x="265" y="10" width="14" height="22" rx="3" fill="#ff7f0e"/>
+<text x="257" y="25.0" text-anchor="end" fill="#222">Intellectual Property</text>
+<text x="10" y="22" font-weight="bold" fill="#ff7f0e">Legal subject areas (curricula)</text>
+<rect x="265" y="42" width="14" height="22" rx="3" fill="#ff7f0e"/>
+<text x="257" y="57.0" text-anchor="end" fill="#222">Evidence</text>
+<rect x="265" y="74" width="14" height="38" rx="3" fill="#ff7f0e"/>
+<text x="257" y="97.0" text-anchor="end" fill="#222">International Human Rights Documents</text>
+<rect x="265" y="122" width="14" height="22" rx="3" fill="#ff7f0e"/>
+<text x="257" y="137.0" text-anchor="end" fill="#222">Employment Law</text>
+<rect x="265" y="154" width="14" height="38" rx="3" fill="#ff7f0e"/>
+<text x="257" y="177.0" text-anchor="end" fill="#222">Commercial &amp; Consumer Law</text>
+<rect x="265" y="202" width="14" height="22" rx="3" fill="#ff7f0e"/>
+<text x="257" y="217.0" text-anchor="end" fill="#222">Property Law</text>
+<rect x="265" y="234" width="14" height="22" rx="3" fill="#ff7f0e"/>
+<text x="257" y="249.0" text-anchor="end" fill="#222">Criminal Law</text>
+<rect x="265" y="266" width="14" height="22" rx="3" fill="#ff7f0e"/>
+<text x="257" y="281.0" text-anchor="end" fill="#222">Contract, Tort &amp; Restitution</text>
+<rect x="265" y="298" width="14" height="38" rx="3" fill="#ff7f0e"/>
+<text x="257" y="321.0" text-anchor="end" fill="#222">Public Law &amp; Human Rights</text>
+<rect x="265" y="346" width="14" height="22" rx="3" fill="#ff7f0e"/>
+<text x="257" y="361.0" text-anchor="end" fill="#222">EU Treaties &amp; Legislation</text>
+<rect x="265" y="378" width="14" height="22" rx="3" fill="#ff7f0e"/>
+<text x="257" y="393.0" text-anchor="end" fill="#222">Company Law</text>
+<rect x="265" y="410" width="14" height="22" rx="3" fill="#ff7f0e"/>
+<text x="257" y="425.0" text-anchor="end" fill="#222">International Law Documents</text>
+<rect x="265" y="442" width="14" height="22" rx="3" fill="#ff7f0e"/>
+<text x="257" y="457.0" text-anchor="end" fill="#222">Family Law</text>
+<rect x="265" y="474" width="14" height="22" rx="3" fill="#ff7f0e"/>
+<text x="257" y="489.0" text-anchor="end" fill="#222">Medical Law</text>
+<rect x="265" y="506" width="14" height="38" rx="3" fill="#ff7f0e"/>
+<text x="257" y="529.0" text-anchor="end" fill="#222">Criminal Justice &amp; Sentencing</text>
+<rect x="265" y="554" width="14" height="22" rx="3" fill="#ff7f0e"/>
+<text x="257" y="569.0" text-anchor="end" fill="#222">UK &amp; EU Competition Documents</text>
+<rect x="265" y="586" width="14" height="38" rx="3" fill="#ff7f0e"/>
+<text x="257" y="609.0" text-anchor="end" fill="#222">Media Law</text>
+<rect x="265" y="634" width="14" height="38" rx="3" fill="#ff7f0e"/>
+<text x="257" y="657.0" text-anchor="end" fill="#222">IT and e-Commerce</text>
+<rect x="265" y="682" width="14" height="38" rx="3" fill="#ff7f0e"/>
+<text x="257" y="705.0" text-anchor="end" fill="#222">Equity and Trusts</text>
+<rect x="640" y="10" width="14" height="22" rx="3" fill="#555"/>
+<text x="662" y="25.0">Home, housing and land (1)</text>
+<rect x="640" y="42" width="14" height="22" rx="3" fill="#555"/>
+<text x="662" y="57.0">Family, children and relationships (2)</text>
+<rect x="640" y="74" width="14" height="22" rx="3" fill="#555"/>
+<text x="662" y="89.0">Health, care and wellbeing (3)</text>
+<rect x="640" y="106" width="14" height="22" rx="3" fill="#555"/>
+<text x="662" y="121.0">Work, jobs and the workplace (4)</text>
+<rect x="640" y="138" width="14" height="38" rx="3" fill="#555"/>
+<text x="662" y="161.0">Buying and selling, consumer protection (8)</text>
+<rect x="640" y="186" width="14" height="38" rx="3" fill="#555"/>
+<text x="662" y="209.0">Crime and criminal offences (9)</text>
+<rect x="640" y="234" width="14" height="38" rx="3" fill="#555"/>
+<text x="662" y="257.0">Courts, police and legal help (11)</text>
+<rect x="640" y="282" width="14" height="86" rx="3" fill="#555"/>
+<text x="662" y="329.0">Your rights and the state (13)</text>
+<rect x="640" y="378" width="14" height="22" rx="3" fill="#555"/>
+<text x="662" y="393.0">Government, Parliament and the constitution (14)</text>
+<rect x="640" y="410" width="14" height="54" rx="3" fill="#555"/>
+<text x="662" y="441.0">Business, trade and industry (16)</text>
+<rect x="640" y="474" width="14" height="22" rx="3" fill="#555"/>
+<text x="662" y="489.0">Culture, media and sport (24)</text>
+<rect x="640" y="506" width="14" height="38" rx="3" fill="#555"/>
+<text x="662" y="529.0">Digital life and technology (25)</text>
+<rect x="640" y="554" width="14" height="22" rx="3" fill="#555"/>
+<text x="662" y="569.0">Later life, death and wills (26)</text>
+<rect x="640" y="586" width="14" height="54" rx="3" fill="#555"/>
+<text x="662" y="617.0">International affairs and treaties (28)</text>
+<text x="265" y="742" font-style="italic" fill="#555">Legal subject areas (curricula) terms (left) &amp;#8594; v2 candidate headings (right). Link width = one term &amp;#8594; heading mapping.</text>
+</svg>
