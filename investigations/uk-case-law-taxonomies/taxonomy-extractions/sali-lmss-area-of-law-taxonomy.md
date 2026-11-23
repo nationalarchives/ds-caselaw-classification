@@ -1,0 +1,149 @@
+# Taxonomy extraction: SALI LMSS — "Area of Law" subtree
+
+Full transcription of the **Area of Law** subtree of the SALI Legal Matter Standard Specification (LMSS) ontology, browsable at [viewer.sali.org](https://viewer.sali.org/) (the "LMSS Viewer"). One of 21 top-level roots of the LMSS; the root IRI is `http://lmss.sali.org/RSYBzf149Mi5KE0YtmpUmr`.
+
+This is a *legal matter* classification (US-centric, with Canada-specific entries marked `CANADA: …`), not a UK case-law subject scheme — included as prior art for matter-level taxonomies.
+
+Counts: 26 level-1 areas / 102 level-2 subtopics / 3 level-3 leaves (all under *Energy Law → Renewable Energy Law*), 132 nodes total. All nodes are `production` status, none deprecated or hidden at capture; the subtree is a strict tree (no multi-parentage).
+
+Extraction method: downloaded `lmss_v2.json` (v2 branch, commit as served by the viewer API's `/meta`; 10,489 nodes, generated 25 Mar 2026) from the public [denisanscomb/LMSS](https://github.com/denisanscomb/LMSS) repo, inverted the `parents` links and walked the subtree; siblings ordered with the viewer's own collation (`Intl.Collator(undefined, {numeric: true, sensitivity: 'base'})` on labels), matching what the UI renders (captured 4 Nov 2026).
+
+- Area of Law
+  - Banking Law
+    - Bank Secrecy and Anti-Money Laundering Law
+    - Banking Operations Law
+  - Bankruptcy and Restructuring Law
+    - Corporate Insolvency Law
+    - Personal Insolvency Law
+  - CANADA: Municipal Law
+  - Commercial and Trade Law
+    - Admiralty and Maritime Law
+    - Antitrust and Competition Law
+    - CANADA: Franchise Law
+    - Commercial Transactions Law
+    - Consumer Protection Law
+    - Trade Law
+  - Constitutional and Civil Rights Law
+    - Discrimination Law
+    - Individual Rights Law
+    - Political Rights Law
+  - Corporate Law
+    - Business Organizations Law
+    - CANADA: Private Equity, Hedge Funds and Venture Capital
+    - Corporate Governance Law
+    - Mergers and Acquisitions Law
+  - Criminal Law
+    - Anti-Corruption Law
+    - Asset Forfeiture Law
+    - Business and Financial Crimes Law
+    - Cybercrime Law
+    - Organized Crime Law
+  - Education Law
+  - Energy Law
+    - Nuclear Law
+    - Oil and Gas Law
+    - Renewable Energy Law
+      - Hydroelectric Energy Law
+      - Solar Energy Law
+      - Wind Power Law
+    - Sales and Transmission Law
+  - Environmental and Natural Resource Law
+    - Air Quality Law
+    - Chemical Safety Law
+    - Contaminant Cleanup Law
+    - Fish and Game Law
+    - Forest Resources Law
+    - Impact Assessment Law
+    - Mineral Resources Law
+    - Waste Management Law
+    - Water Quality Law
+    - Water Resources and Wetlands Law
+    - Wildlife and Plants Law
+  - Finance and Lending Law
+    - Commercial Finance Law
+    - Lender Liability Law
+  - Food and Drug Law
+  - Gaming Law
+  - Health Law
+  - Information Security Law
+    - Cybersecurity Law
+    - Government Access and Disclosure Law
+    - Privacy Law
+  - Insurance Law
+    - CANADA: Accident Benefits Law
+    - CANADA: Disability Insurance Law
+  - Intellectual Property Law
+    - Copyright Law
+    - Patent Law
+    - Trade Secret Law
+    - Trademark and Trade Dress Law
+  - Labor and Employment Law
+    - CANADA: Employment Contracts
+    - CANADA: Employment Law
+    - CANADA: Independent Contractors
+    - CANADA: Pay Equity
+    - Employment Discrimination Law
+    - Employment Health and Safety Law
+    - Employment Immigration Law
+    - Labor Law
+    - Pension and Benefits Law
+    - Termination Law
+    - Unemployment Benefits Law
+    - Wage and Hour Law
+    - Workers Compensation Law
+  - Personal and Family Law
+    - Adoption, Surrogacy, and Paternity Law
+    - CANADA: Custody Law
+    - Immigration Law
+    - Juvenile Law
+    - Matrimonial Law
+    - Probate Law
+    - Trusts and Estate Planning Law
+  - Personal Injury and Tort Law
+    - Assault Law
+    - Defamation Law
+    - Fraud and Economic Torts Law
+    - Negligence and Malpractice Law
+    - Product Liability Law
+  - Public and Administrative Law
+    - Election Law
+    - Government Contracts Law
+    - Indiginous People's Law
+    - Military and Veterans Law
+    - Project Finance Law
+    - Public Finance Law
+    - Public Health and Welfare Law
+    - Public Policy and Government Affairs Law
+  - Real Property Law
+    - CANADA: Condominium Law
+    - Construction and Development Law
+    - Eminent Domain Law
+    - Land Use and Zoning Law
+    - Landlord Tenant Law
+    - Property Rights and Transactions Law
+  - Securities and Financial Instruments Law
+    - Broker-Dealer Law
+    - Commodities Law
+    - Derivatives and Futures Law
+    - Exchanges Law
+    - Investment Advisor Law
+    - Investment Companies Law
+    - Security Offerings and Capital Markets Law
+    - Structured Finance Law
+  - Tax and Revenue Law
+    - Estates, Gifts, and Trusts Law
+    - Non-Profit and Exempt Organizations Law
+    - Tax Law
+  - Telecommunications Law
+    - Telecommunication Utilities Law
+  - Transportation Law
+    - Aviation Law
+    - Motor Vehicle Law
+    - Railway Law
+
+## Notes
+
+- The scheme reads as a US legal-practice matter classification with Canadian bolt-ons: jurisdiction-specific topics are prefixed `CANADA:` rather than restructured into a geography level (e.g. *CANADA: Municipal Law* sits alone at level 1, while *CANADA: Employment Law* and generic *Labor Law* coexist under *Labor and Employment Law*).
+- Source spellings preserved verbatim, including "Indiginous People's Law" (sic) under *Public and Administrative Law*.
+- Depth is shallow (max 3 below the root); only *Renewable Energy Law* has children (*Hydroelectric*, *Solar*, *Wind Power*). Several level-1 areas are leaves with no subtopics at all (*Education Law*, *Food and Drug Law*, *Gaming Law*, *Health Law*, *CANADA: Municipal Law*).
+- The viewer's underlying data is versioned on GitHub (branches `v2`, `V3`, `V3-beta`); the README notes IRIs are designed to be stable across versions with deprecation handled by moving nodes to a "DEPRECATED NODES" folder — so this transcription should remain valid against later v2 commits, with new areas appended.

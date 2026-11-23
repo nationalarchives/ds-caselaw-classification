@@ -1,0 +1,562 @@
+# Taxonomy extraction: GOV.UK "Administrative appeals tribunal decisions" — Categories / Sub-categories
+
+Full transcription of the **two-level** `Categories` → `Sub-categories` facet pair in the search form at [gov.uk/administrative-appeals-tribunal-decisions](https://www.gov.uk/administrative-appeals-tribunal-decisions) (GOV.UK finder, "From: HM Courts & Tribunals Service and Upper Tribunal (Administrative Appeals Chamber)"; decisions from January 2016; 2,107 results at capture). This is the successor search surface for AAC decisions that [courts-tribunals-schemes.md](../notes/courts-tribunals-schemes.md) §4 notes was *lacking* a subject facet on tribunalsdecisions.service.gov.uk — the GOV.UK finder does carry one, and it is the deepest benefit-law subject scheme in this investigation.
+
+Extraction method: both facets are server-rendered checkbox groups in the static HTML (`Categories` and `Sub-categories` option-select sections); labels parsed directly from the page (captured 4 Nov 2026). Sub-categories are stored flat with a `{category} - ` prefix; each was matched to its parent by that prefix (whitespace-normalised, case-insensitive — one entry uses "Care **S**tandards" against the category label "Care standards"). Original sub-category casing is preserved (mostly lowercase in the source).
+
+- Benefits for children
+  - benefit increases for children
+  - child benefit
+  - child care credit
+  - guardians allowance
+  - tax free childcare
+  - other
+- Bereavement and death benefits
+  - bereaved parents allowance
+  - bereavement support payment
+  - bereavement payments
+  - other
+  - social fund funeral payments
+  - widowed mothers allowance
+  - widowers allowance
+  - widowers pension
+  - widows allowance
+  - widows payments
+  - widows pension
+- Capital
+  - Children's capital
+  - Disregards: business assets
+  - Disregards: home and other premises
+  - Disregards: other
+  - Disregards: pensions, policies and similar
+  - Disregards: personal injury/other compensation
+  - Income as capital
+  - Joint holdings
+  - Notional Capital: deprivation
+  - Notional Capital: diminishment
+  - Notional Capital: other
+  - Other
+  - Ownership/Possession
+  - Valuation
+- Care standards
+  - other
+  - registration of childcare providers
+  - registration of children's homes, residential family centres or fostering or adoption agencies
+  - registration of health care
+  - registration of independent schools
+  - registration of social care (including nursing agencies)
+  - registration of social workers and other social care workers
+- Child support
+  - applications
+  - calculation of income
+  - cancellation
+  - child
+  - effective date
+  - housing costs
+  - interim maintenance assessments/decisions
+  - jurisdiction
+  - maintenance assessments/calculations
+  - other
+  - periods of assessment/calculation
+  - property and capital transfers
+  - receipt of benefit
+  - travel to work costs
+  - tribunal practice
+  - variation/departure directions: diversion of income
+  - variation/departure directions: just and equitable
+  - variation/departure directions: lifestyle inconsistent
+  - variation/departure directions: other
+- Claims and payments
+  - appointment to act
+  - benefits claimed
+  - good cause
+  - jurisdiction
+  - late claim: housing and council tax benefits
+  - late claim: other benefits
+  - late payment
+  - other
+  - period of claim
+  - required information
+- Commissioners’ procedure and practice
+  - Commissioners practice
+  - Commissioners jurisdiction
+  - Commissioners/ Upper Tribunal procedure
+  - evidence
+  - fair hearing
+  - lapsing of appeals
+  - leave to appeal to Commissioners
+  - leave to appeal to higher courts
+  - notice requirements
+  - other
+  - precedence of decisions
+  - representatives
+- Compensation recovery
+  - cause of payment of benefits
+  - other
+  - scope of appeal
+- Consumer credit
+  - licensing
+  - money laundering
+  - other
+- Contributions and credits
+  - contribution conditions
+  - contributions
+  - credits and credited earnings
+  - other
+- Criminal injuries compensation
+  - claims
+  - other
+  - reduction and withholding of awards
+- Disability discrimination in schools
+- DLA, AA, MA: general
+  - accommodation costs
+  - age conditions
+  - other
+  - qualifying periods
+  - severe behavioural problems
+  - severe mental disablement
+  - severe physical disablement
+  - terminal illness
+- DLA, AA: personal care
+  - “cooking test”
+  - attention: children under 16
+  - attention: daytime
+  - attention: night
+  - bodily functions
+  - other
+  - supervision: children
+  - supervision: continual daytime
+  - supervision: watching over at night
+- DLA, MA: mobility
+  - children under 16
+  - exertion endangering life
+  - guidance or supervision
+  - inability to walk
+  - other
+  - virtual inability to walk
+- Earnings and other income
+  - benefits
+  - calculation: employed
+  - calculation: self employed
+  - capital treated as income
+  - children's Income
+  - Councillors
+  - disregards
+  - notional earnings
+  - notional income
+  - other
+  - other income and payments
+  - termination and compensation payments
+- Employment and support allowance
+  - attending medical examination
+  - contributory ESA
+  - effect of work
+  - exemptions from test
+  - income-related ESA
+  - medical evidence
+  - other
+  - Post 28.3.11 WCA activity 1: mobilising unaided
+  - Post 28.3.11 WCA activity 2: standing and sitting
+  - Post 28.3.11 WCA activity 3: reaching
+  - Post 28.3.11 WCA activity 4: picking up and moving/transferring
+  - Post 28.3.11 WCA activity 5: manual dexterity
+  - Post 28.3.11 WCA activity 6: making self understood
+  - Post 28.3.11 WCA activity 7: understanding communication
+  - Post 28.3.11 WCA activity 8: navigation and maintaining safety
+  - Post 28.3.11 WCA activity 9: absence or loss of bowel/bladder control
+  - Post 28.3.11 WCA activity 10 :consiousness during waking moments
+  - Post 28.3.11 WCA activity 11: learning tasks
+  - Post 28.3.11 WCA activity 12: awareness of everyday hazards
+  - Post 28.3.11 WCA activity 13: initiating and completing personal action
+  - Post 28.3.11 WCA activity 14: coping with change
+  - Post 28.3.11 WCA activity 15: getting about
+  - Post 28.3.11 WCA activity 16: coping with social engagement
+  - Post 28.3.11 WCA activity 17: appropriateness of behaviour with other people
+  - Pre 28.3.11 WCA activity 1: walking
+  - Pre 28.3.11 WCA activity 2: standing and sitting
+  - Pre 28.3.11 WCA activity 3: bending or kneeling
+  - Pre 28.3.11 WCA activity 4: reaching
+  - Pre 28.3.11 WCA activity 5: picking up and moving
+  - Pre 28.3.11 WCA activity 6: manual dexterity
+  - Pre 28.3.11 WCA activity 7: speech
+  - Pre 28.3.11 WCA activity 8: hearing
+  - Pre 28.3.11 WCA activity 9: vision
+  - Pre 28.3.11 WCA activity 10: continence
+  - Pre 28.3.11 WCA activity 11: remaining conscious
+  - Pre 28.3.11 WCA activity 12: learning or comprehension
+  - Pre 28.3.11 WCA activity 13: hazard awareness
+  - Pre 28.3.11 WCA activity 14: memory and concentration
+  - Pre 28.3.11 WCA activity 15: execution of tasks
+  - Pre 28.3.11 WCA activity 16: initiating and sustaining personal action
+  - Pre 28.3.11 WCA activity 17: coping with change
+  - Pre 28.3.11 WCA activity 18: getting about
+  - Pre 28.3.11 WCA activity 19: coping with social situations
+  - Pre 28.3.11 WCA activity 20: propriety of behaviour
+  - Pre 28.3.11 WCA activity 21: dealing with other people
+  - Regulation 29
+  - Regulation 35
+  - the assessment phase
+  - WCA: general
+  - Work-Focused Health Related Assessment (WFHRA): general
+  - Work-Related Activity Assessment (WRAA): general
+  - WRAA Schedule 3 prescribed activities
+- Environment
+- Equality Act
+- Estate agents
+- European Union law
+  - Agreement on European Economic Area
+  - Association and Cooperation Agreements
+  - Council directive 76/207/EEC
+  - Council directive 79/7/EEC
+  - Council directive 86/378
+  - Council regulation 574/72/EEC
+  - Council regulations 1408/71/EEC and (EC) 883/2004
+  - discrimination by gender
+  - discrimination by nationality
+  - free movement
+  - other
+  - references to European Court
+  - workers
+- Forfeiture
+- Gambling
+- Housing and council tax benefits
+  - backdating
+  - council tax benefit
+  - liability, commerciality and contrivance [regulations 8 and 9]
+  - non-dependants
+  - occupation of the home, two homes and temporary absence [regulation 7]
+  - other
+  - payments that are eligible for HB [regulation 12 and Schedule 1]
+  - recovery of overpayments
+  - rent restrictions
+- Human rights law
+  - application of Human Rights Act
+  - article 3 (torture)
+  - article 6 (fair hearing)
+  - article 8 (private and family life)
+  - article 9 (freedom of thought)
+  - article 10 (freedom of expression)
+  - article 12 (right to marry)
+  - article 13 (redress)
+  - article 14 (non-discrimination)
+  - other
+  - other Convention articles
+  - Protocol 1 (protection of property)
+- Immigration services
+- Incapacity benefits
+  - activity 1: walking
+  - activity 2: stairs
+  - activity 3: sitting
+  - activity 4: standing
+  - activity 5: rising
+  - activity 6: bending or kneeling
+  - activity 7: hands
+  - activity 8: lifting and carrying
+  - activity 9: reaching
+  - activity 10: speech
+  - activity 11: hearing
+  - activity 12: vision
+  - activity 13: continence
+  - activity 14: consciousness
+  - attending medical examination
+  - awt/pca: general
+  - exemptions from test
+  - incapable of work
+  - increase for adult dependant
+  - medical evidence
+  - mental health descriptors
+  - other
+  - periods of incapacity
+- Income support and state pension credits
+  - applicable amounts
+  - deductions
+  - housing costs
+  - other: income support
+  - other: state pension credit
+  - urgent cases
+- Industrial accidents
+  - arising out of employment
+  - declaration of accident
+  - in the course of employment
+  - industrial accident
+  - other
+  - treated as in employment
+- Industrial diseases
+  - A10 (deafness)
+  - A11 (vibration white finger)
+  - A12 (carpel tunnel syndrome)
+  - A4 (task-specific focal dystonia)
+  - A6 (beat knee)
+  - A8 (tenosynovitis)
+  - B diseases (biological agents)
+  - C diseases (chemical agents)
+  - D1 (pneumoconiosis)
+  - D1, D3 (asbestosis, silicosis)
+  - D12 (bronchitis and emphysema)
+  - D4 (allergic rhinitis)
+  - D6 (nasal cancer)
+  - D7 (asthma)
+  - D8-11 (lung cancer)
+  - date of onset
+  - other
+  - other A diseases (physical agents)
+  - other D diseases (miscellaneous)
+- Industrial injuries benefits
+  - aggregation of assessments
+  - assessment of disablement
+  - industrial death benefit
+  - other
+  - reduced earnings allowance
+  - special hardship allowance
+  - workmen’s compensation supplement
+- Information rights
+  - Data protection
+  - Environmental information - exceptions
+  - Environmental information - general
+  - Freedom of information - absolute exemptions
+  - Freedom of Information - exceptions
+  - Freedom of information - public authority response
+  - Freedom of information - public interest test
+  - Freedom of information - qualified exemptions
+  - Freedom of information - right of access
+  - Information rights: practice and procedure
+- Jobseekers allowance
+  - applicable amounts
+  - availability for employment
+  - deductions
+  - housing costs
+  - joint claims
+  - other
+  - urgent cases
+  - voluntary unemployment
+- Local government standards in England
+- Marriage, civil partnerships and living together
+  - joint claims
+  - living together as husband and wife or civil partners
+  - other
+  - validity of marriage
+- Maternity benefits
+  - other
+  - social fund maternity payment
+  - state maternity allowance
+- Members of a household
+  - children
+  - other
+  - temporarily living away
+  - treated as not being members
+- Mental health
+- Other current benefits
+  - carer’s allowance
+  - severe disablement allowance
+- Other general regulatory appeals
+- Other previous benefits
+  - family income supplement
+  - industrial death benefit
+  - industrial injury benefit
+  - invalidity benefit
+  - other
+  - sickness benefit
+  - supplementary benefit
+  - unemployment benefit
+- Personal independence payment – daily living activities
+  - Activity 1: preparing food
+  - Activity 2: taking nutrition
+  - Activity 3: managing therapy or monitoring a health condition
+  - Activity 4: washing and bathing
+  - Activity 5: managing toilet needs or incontinence
+  - Activity 6: dressing and undressing
+  - Activity 7: communicating verbally
+  - Activity 8: reading and understanding signs, symbols and words
+  - Activity 9: engaging with other people face to face
+  - Activity 10: making budgeting decisions
+- Personal independence payment – general
+- Personal independence payment – mobility activities
+  - Mobility activity 1: planning and following journeys
+  - Mobility activity 2: moving around
+- Primary health lists
+- Recovery of overpayments
+  - amount recoverable
+  - civil penalties
+  - excess council tax benefit
+  - failure to disclose
+  - liability of third parties
+  - misrepresentation
+  - offset of benefits
+  - other
+- Remunerative work
+  - calculation of hours of work
+  - engaged in work
+  - expectation of payment
+  - other
+  - treated as not in remunerative work
+- Residence and presence conditions
+  - habitual residence
+  - ordinary residence
+  - other
+  - persons from abroad
+  - persons subject to immigration control
+  - presence
+  - residence
+  - right to reside
+  - temporary absence from Great Britain
+- Retirement pensions
+  - deferred retirement
+  - increases for spouse or dependant
+  - other
+  - dditional pensions and SERPS
+- Revisions, supersessions and reviews
+  - change of circumstances
+  - date of effect of decision
+  - ignorance of material fact
+  - late applications
+  - mistake as to material fact
+  - official error
+  - other
+  - reviews under the 1992 Act
+  - revision: general
+  - supersession: general
+  - supersession: incapacity
+- Safeguarding vulnerable groups
+  - Adequacy
+  - Adults’ barred list
+  - Appealable decisions
+  - Appropriateness
+  - Child - meaning
+  - Children’s barred list
+  - Convictions/cautions
+  - DBS procedure - other
+  - Disposal
+  - 'Fairness of DBS decision-making' or something similar
+  - Finding of fact
+  - Grounds of appeal
+  - Harm – meaning
+  - Investigation by DBS
+  - Irrationality
+  - Knowledge attributable to DBS
+  - Materiality
+  - Mistake on point of law
+  - New evidence before the UT
+  - other lists
+  - Paragraph 17
+  - Paragraph 18
+  - Paragraph 18A
+  - Perversity
+  - Previous decision not to bar - relevance
+  - Proportionality
+  - Reading across between conduct towards child and adult
+  - Reasoning
+  - Regulated activity
+  - Relevance of conduct in personal life
+  - Relevance of conduct outside regulated activity
+  - Relevance of decision by professional regulator
+  - Removal from list
+  - Respect for DBS fact-finding
+  - Respect for limits of jurisdiction
+  - Reviews
+  - Whether DBS should have waited for decision by professional regulator
+  - Whether to stay to await review by DBS
+- Special educational needs
+  - description of special educational needs
+  - discontinuing a statement
+  - failure to make a statement
+  - other
+  - special educational provision - naming school
+  - failure to prepare an EHC plan under Children & Families Act 2014
+  - special educational provision - naming school or other institution in EHC plan
+  - ceasing to maintain EHC plan
+  - special educational provision - other
+- Students
+  - full-time course
+  - housing benefit exemption
+  - loans and grant income
+  - other
+- Tax credits and family credit
+  - couples and joint claims
+  - deductions and income assessments
+  - disabled workers
+  - housing costs
+  - other
+  - recovery, penalties and interest
+  - responsible for child and child care credits
+- Transport
+  - Driving Instructor cases – Other
+  - Driving Instructor cases – Procedure
+  - driving standards
+  - other
+  - Traffic Commissioner and DoE (NI) Appeals – Applications
+  - Traffic Commissioner and DoE (NI) Appeals – Directors
+  - Traffic Commissioner and DoE (NI) Appeals – Establishment
+  - Traffic Commissioner and DoE (NI) Appeals – Impounding
+  - Traffic Commissioner and DoE (NI) Appeals – Other
+  - Traffic Commissioner cases
+- Tribunal procedure and practice
+  - costs
+  - evidence
+  - fair hearing
+  - judicial review
+  - lapsing of appeals
+  - leave/permission to appeal
+  - notice requirements
+  - other
+  - precedence of decisions
+  - record of proceedings
+  - representatives
+  - set aside applications
+  - statements of reasons
+  - tribunal jurisdiction
+  - tribunal membership and procedure
+  - tribunal practice
+- Universal Credit
+  - Sanctions
+  - Standard Allowance
+  - Limited Capability for work
+  - Child Element
+  - Child Element Disabled Child Addition
+  - Child Care
+  - Care
+  - Housing
+  - Other
+- Vaccine damage payments
+- War pensions and armed forces compensation
+  - Armed Forces Compensation Scheme
+  - other
+  - procedure
+  - war pensions – assessment
+  - war pensions – entitlement
+  - war pensions – specified decisions
+- Winter fuel payments
+- Transport - Traffic Commissioner and DoE (NI) Appeals
+  - Call-up letters
+  - Decisions and reasons
+  - Discretionary Issues
+  - Disqualification
+  - Financial Standing
+  - International issues
+  - Professional Competence
+  - Public Inquiries and Impounding Hearings
+  - Public Service Vehicles
+  - Regulatory Action
+  - Repute & Fitness
+  - Restricted Licences
+  - Revocation, Suspension and Curtailment
+  - Termination by law, withdrawal or surrender
+  - Transport Managers
+- Transport - Driving Instructor cases
+  - Check tests
+  - Fit and proper person – assault
+  - Fit and proper person – dishonesty
+  - Fit and proper person – drugs
+  - Fit and proper person – general
+  - Fit and proper person – imprisonment
+  - Fit and proper person – indecency
+  - Fit and proper person – motoring offences
+  - Trainee licences
+- Transport - Quality Contract Schemes
+  - Bus
+
+## Notes
+
+- 63 categories / 486 sub-categories (549 entries total). 14 categories carry no sub-categories at all (leaf-level: *Disability discrimination in schools*, *Environment*, *Equality Act*, *Estate agents*, *Forfeiture*, *Gambling*, *Immigration services*, *Local government standards in England*, *Mental health*, *Other general regulatory appeals*, *Personal independence payment – general*, *Primary health lists*, *Vaccine damage payments*, *Winter fuel payments*).
+- The last three entries of the **Categories** facet are out-of-order appends after the alphabetical block, and they themselves carry the `Transport - ` prefix: *Traffic Commissioner and DoE (NI) Appeals* (15 sub-categories), *Driving Instructor cases* (9) and *Quality Contract Schemes* (1). Meanwhile a plain *Transport* category also exists with 10 sub-categories whose themes overlap the appended ones (e.g. 'Driving Instructor cases – Other', 'Traffic Commissioner and DoE (NI) Appeals – Applications') — transport topics are split across both levels of the scheme, evidently hand-maintained over time.
+- The scheme is benefit-led: most categories name a specific benefit or statutory regime (DLA/AA/MA, PIP, ESA, UC, JSA, IS/SPC, tax credits, DWP-related), mirroring the citation-prefix convention of the legacy Commissioners' database (§4). Within that, several categories are doctrine-level deep — e.g. *Employment and support allowance* enumerates all 17 post-28.3.11 WCA activities and all 21 pre-28.3.11 WRAA activities as individual sub-categories; *Capital* splits into disregards/notional-capital sub-families; *Human rights law* is indexed by Convention article.
+- Procedure topics appear as first-class categories (*Commissioners' procedure and practice*, *Tribunal procedure and practice*) rather than only as per-category sub-entries, unlike the Lands Chamber scheme.

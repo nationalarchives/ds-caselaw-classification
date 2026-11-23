@@ -1,0 +1,21 @@
+Draft list of legal subject areas based on common areas of law from curricula \(Blackstone's Statutes and BSB Bar Qualification Manual\)
+
+- Intellectual Property
+- Evidence
+- International Human Rights Documents
+- Employment Law
+- Commercial & Consumer Law
+- Property Law
+- Criminal Law
+- Contract, Tort & Restitution
+- Public Law & Human Rights
+- EU Treaties & Legislation
+- Company Law
+- International Law Documents 
+- Family Law
+- Medical Law
+- Criminal Justice & Sentencing
+- UK & EU Competition Documents
+- Media Law
+- IT and e-Commerce
+- Equity and Trusts
